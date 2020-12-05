@@ -35,6 +35,10 @@ body {
   color: #fff !important;
 }
 
+.nav-item a:hover {
+  color: #cccccc !important;
+}
+
 .button-nav {
   font-family: segoeuib;
   background-color: #002050;
@@ -49,13 +53,6 @@ body {
   filter: blur(1px) brightness(35%);
   height: 93vh;
   margin-top: -1%;
-}
-
-.mensagem-header {
-  background-color: transparent;
-  border: none;
-  top: 20%;
-  position: absolute;
 }
 
 .mensagem-header {
@@ -80,13 +77,24 @@ body {
 
 .btn-mensagem {
   font-family: segoeuib;
-  margin-top: 10%;
+  margin-top: 8%;
   padding-left: 5%;
   padding-right: 5%;
 }
 
 .btn-mensagem:hover {
   box-shadow: 0 0 0 0.2rem #055e9e;
+}
+
+.options-header {
+  top: 85%;
+  left: 10%;
+  width: 80%;
+  position: absolute;
+}
+
+.img-options {
+  float: right;
 }
 
 @media (max-width: 768px) {
@@ -114,6 +122,15 @@ body {
   .btn-mensagem {
     margin-left: 23%;
     margin-right: 23%;
+  }
+  .options-link {
+    display: none;
+  }
+  .img-options {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
   }
 }
 
