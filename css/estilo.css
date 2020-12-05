@@ -42,6 +42,15 @@ body {
   padding-right: 1%;
 }
 
+.header {
+  background-image: url(../imgs/ballpen-blur-close-up-461077.png);
+  background-size: cover;
+  background-position: top center;
+  filter: blur(1px) brightness(35%);
+  height: 93vh;
+  margin-top: -1%;
+}
+
 @media (max-width: 768px) {
   .navbar-estilo {
     padding-left: 4%;
