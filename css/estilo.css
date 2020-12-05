@@ -1,0 +1,18 @@
+@font-face {
+  font-family: segoeui;
+  src: url("../fonts/segoeui.ttf");
+}
+
+@font-face {
+  font-family: segoeuib;
+  src: url("../fonts/segoeuib.ttf");
+}
+
+@font-face {
+  font-family: segoeuil;
+  src: url("../fonts/segoeuil.ttf");
+}
+
+body {
+  font-family: segoeui;
+}
