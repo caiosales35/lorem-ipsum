@@ -16,3 +16,39 @@
 body {
   font-family: segoeui;
 }
+
+.principal-color {
+  background-color: #2571b7 !important;
+}
+
+.navbar-estilo {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.nav-itens {
+  width: 95%;
+  justify-content: space-around;
+}
+
+.nav-item a {
+  color: #fff !important;
+}
+
+.button-nav {
+  font-family: segoeuib;
+  background-color: #002050;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+@media (max-width: 768px) {
+  .navbar-estilo {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .button-nav {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
