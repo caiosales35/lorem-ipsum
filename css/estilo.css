@@ -129,10 +129,16 @@ main {
 }
 
 /* Ementos suporte */
-.separator-suport {
+.separator-support {
   padding: 1%;
   margin-top: 4%;
   margin-bottom: 4%;
+}
+
+.support-image {
+  border-radius: 50%;
+  width: 25%;
+  padding: 5%;
 }
 
 @media (max-width: 768px) {
@@ -192,8 +198,15 @@ main {
   .hide-item-list {
     display: none;
   }
-  .separator-suport {
+  .separator-support {
     display: none;
+  }
+  /* Ementos suporte */
+  .support-image {
+    width: 40%;
+  }
+  .support-text {
+    font-size: 0.9rem;
   }
 }
 
