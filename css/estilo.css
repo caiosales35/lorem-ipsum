@@ -119,7 +119,13 @@ main {
 
 /* Lista */
 .item-list {
-  padding: 2%;
+  padding: 1%;
+  width: 48%;
+  margin-bottom: 5%;
+}
+
+.image-list {
+  height: 100%;
 }
 
 @media (max-width: 768px) {
@@ -170,6 +176,10 @@ main {
   .title {
     margin-bottom: 8%;
     font-size: 2rem;
+  }
+  /* Lista */
+  .item-list {
+    width: 100%;
   }
 }
 
