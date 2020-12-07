@@ -168,6 +168,15 @@ main {
   color: rgb(255, 123, 0);
 }
 
+/* Elementos imagem das mãos */
+.hands {
+  background-image: url(../imgs/achievement-adult-agreement-1391373.png);
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(35%);
+  height: 35vh;
+}
+
 @media (max-width: 768px) {
   /* Navbar */
   .navbar-estilo {
