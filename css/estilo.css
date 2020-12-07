@@ -133,6 +133,7 @@ main {
   padding: 1%;
   margin-top: 4%;
   margin-bottom: 4%;
+  background-color: #cfcfcf;
 }
 
 .support-image {
@@ -152,6 +153,19 @@ main {
 
 .big-separator-support {
   display: none;
+}
+
+/* Elementos Tabela */
+.border-tabble {
+  border: 3px solid #cfcfcf;
+}
+
+.border-change {
+  border-right: 0;
+}
+
+.text-tabble {
+  color: rgb(255, 123, 0);
 }
 
 @media (max-width: 768px) {
@@ -212,9 +226,6 @@ main {
     display: none;
   }
   /* Ementos suporte */
-  .border-support {
-    border-bottom: 1px solid #6c757d;
-  }
   .support-image {
     width: auto;
     height: auto;
@@ -235,7 +246,12 @@ main {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 2px;
-    background-color: #c9c9c9;
+    background-color: #cfcfcf;
+  }
+  /* Elementos Tabela */
+  .border-change {
+    border-bottom: 0;
+    border-right: 3px solid #cfcfcf;
   }
 }
 
