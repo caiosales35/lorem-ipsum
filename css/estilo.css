@@ -175,13 +175,18 @@ main {
   background-position: center center;
   filter: brightness(35%);
   height: 35vh;
+  width: 100%;
 }
 
 .message-hands {
   background-color: transparent;
   padding: 5%;
-  top: 90%;
-  position: absolute;
+  margin-top: 2%;
+}
+
+/* Elementos do form */
+.form-container {
+  margin-top: 350px;
 }
 
 @media (max-width: 768px) {
@@ -270,11 +275,11 @@ main {
     border-right: 3px solid #cfcfcf;
   }
   /* Elementos hands */
-  .message-hands {
-    top: 94%;
-  }
   .text-hands {
     font-size: 1.6rem;
+  }
+  .message-hands {
+    margin-top: 10%;
   }
 }
 
