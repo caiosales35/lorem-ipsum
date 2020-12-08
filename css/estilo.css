@@ -177,6 +177,13 @@ main {
   height: 35vh;
 }
 
+.message-hands {
+  background-color: transparent;
+  padding: 5%;
+  top: 90%;
+  position: absolute;
+}
+
 @media (max-width: 768px) {
   /* Navbar */
   .navbar-estilo {
@@ -261,6 +268,13 @@ main {
   .border-change {
     border-bottom: 0;
     border-right: 3px solid #cfcfcf;
+  }
+  /* Elementos hands */
+  .message-hands {
+    top: 94%;
+  }
+  .text-hands {
+    font-size: 1.6rem;
   }
 }
 
