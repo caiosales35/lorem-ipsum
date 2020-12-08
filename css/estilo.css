@@ -199,6 +199,12 @@ main {
   width: 100%;
 }
 
+/* Elementos rodapé */
+.link-footer {
+  font-size: 0.9rem;
+  margin: 1%;
+}
+
 @media (max-width: 768px) {
   /* Navbar */
   .navbar-estilo {
