@@ -169,6 +169,10 @@ main {
 }
 
 /* Elementos imagem das mãos */
+.container-hands {
+  height: 222px;
+}
+
 .hands {
   background-image: url(../imgs/achievement-adult-agreement-1391373.png);
   background-size: cover;
@@ -180,13 +184,12 @@ main {
 
 .message-hands {
   background-color: transparent;
-  padding: 5%;
-  margin-top: 2%;
+  padding: 3%;
 }
 
 /* Elementos do form */
 .form-container {
-  margin-top: 350px;
+  margin-top: 100px;
 }
 
 .elements-form {
@@ -293,9 +296,6 @@ main {
   /* Elementos hands */
   .text-hands {
     font-size: 1.6rem;
-  }
-  .message-hands {
-    margin-top: 10%;
   }
 }
 
