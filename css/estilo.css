@@ -189,6 +189,16 @@ main {
   margin-top: 350px;
 }
 
+.elements-form {
+  background-color: #cfcfcf;
+  padding: 2%;
+}
+
+.button-form {
+  font-family: segoeuib;
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   /* Navbar */
   .navbar-estilo {
