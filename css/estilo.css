@@ -17,6 +17,10 @@ body {
   font-family: segoeui;
 }
 
+.anime {
+  opacity: 0;
+}
+
 .principal-color {
   background-color: #2571b7 !important;
 }
