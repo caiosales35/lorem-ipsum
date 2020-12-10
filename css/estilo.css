@@ -1,0 +1,310 @@
+@font-face {
+  font-family: segoeui;
+  src: url("../fonts/segoeui.ttf");
+}
+
+@font-face {
+  font-family: segoeuib;
+  src: url("../fonts/segoeuib.ttf");
+}
+
+@font-face {
+  font-family: segoeuil;
+  src: url("../fonts/segoeuil.ttf");
+}
+
+body {
+  font-family: segoeui;
+}
+
+.anime {
+  opacity: 0;
+}
+
+.principal-color {
+  background-color: #2571b7 !important;
+}
+
+/* Navbar */
+.navbar-estilo {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.nav-itens {
+  width: 95%;
+  justify-content: space-around;
+}
+
+.nav-item a {
+  color: #fff !important;
+}
+
+.nav-item a:hover {
+  color: #cccccc !important;
+}
+
+.button-nav {
+  font-family: segoeuib;
+  background-color: #002050;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+/* Header */
+.header {
+  background-image: url(../imgs/ballpen-blur-close-up-461077.png);
+  background-size: cover;
+  background-position: top center;
+  filter: blur(1px) brightness(35%);
+  height: 93vh;
+  margin-top: -1%;
+}
+
+.mensagem-header {
+  background-color: transparent;
+  border: none;
+  top: 20%;
+  left: 8%;
+  position: absolute;
+}
+
+.card-mensagem {
+  font-size: 5rem;
+}
+
+.descricao-mensagem {
+  font-size: 1.5rem;
+}
+
+.btn-mensagem {
+  font-family: segoeuib;
+  margin-top: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.btn-mensagem:hover {
+  box-shadow: 0 0 0 0.2rem #055e9e;
+}
+
+.options-header {
+  top: 85%;
+  left: 10%;
+  width: 80%;
+  position: absolute;
+}
+
+.img-options {
+  float: right;
+}
+
+/* Main */
+main {
+  background-color: #fff;
+  position: relative;
+}
+
+.intro-main {
+  color: #919191;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.text-main {
+  color: rgb(255, 102, 0);
+  font-family: segoeuib;
+}
+
+.title {
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+
+/* Lista */
+.item-list {
+  padding: 1%;
+  width: 49%;
+  margin-bottom: 2%;
+}
+
+.image-list {
+  height: 100%;
+}
+
+/* Ementos suporte */
+.separator-support {
+  padding: 1%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  background-color: #cfcfcf;
+}
+
+.support-image {
+  border-radius: 50%;
+  width: 83px;
+  height: 83px;
+  padding: 8%;
+}
+
+.notebook-support-image {
+  margin-bottom: 0px;
+}
+
+.notebook-support-btn:hover {
+  color: #fff !important;
+}
+
+.big-separator-support {
+  display: none;
+}
+
+/* Elementos Tabela */
+.border-tabble {
+  border: 3px solid #cfcfcf;
+}
+
+.border-change {
+  border-right: 0;
+}
+
+.text-tabble {
+  color: rgb(255, 123, 0);
+}
+
+/* Elementos imagem das mãos */
+.container-hands {
+  height: 222px;
+}
+
+.hands {
+  background-image: url(../imgs/achievement-adult-agreement-1391373.png);
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(35%);
+  height: 35vh;
+  width: 100%;
+}
+
+.message-hands {
+  background-color: transparent;
+  padding: 3%;
+}
+
+/* Elementos do form */
+.form-container {
+  margin-top: 100px;
+}
+
+.elements-form {
+  background-color: #cfcfcf;
+  padding: 2%;
+}
+
+.button-form {
+  font-family: segoeuib;
+  width: 100%;
+}
+
+/* Elementos rodapé */
+.link-footer {
+  font-size: 0.9rem;
+  margin: 1%;
+}
+
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar-estilo {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .button-nav {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  /* Header */
+  .mensagem-header {
+    left: 0%;
+    width: 100%;
+  }
+  .titulo-mensagem {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .card-mensagem {
+    font-size: 3rem;
+    font-family: segoeuib;
+  }
+  .btn-mensagem {
+    margin-left: 23%;
+    margin-right: 23%;
+  }
+  .options-link {
+    display: none;
+  }
+  .img-options {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+  /* Main */
+  .intro-main {
+    font-size: 1rem;
+  }
+  .text-main {
+    font-family: segoeui;
+    color: #919191;
+  }
+  .title {
+    margin-bottom: 8%;
+    font-size: 2rem;
+  }
+  /* Lista */
+  .item-list {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .hide-item-list {
+    display: none;
+  }
+  /* Ementos suporte */
+  .support-image {
+    width: auto;
+    height: auto;
+    padding: 3%;
+    margin-bottom: 10%;
+  }
+  .notebook-support-image {
+    margin-bottom: 3px;
+  }
+  .separator-support {
+    display: none;
+  }
+  .support-text {
+    font-size: 0.8rem;
+  }
+  .big-separator-support {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 2px;
+    background-color: #cfcfcf;
+  }
+  /* Elementos Tabela */
+  .border-change {
+    border-bottom: 0;
+    border-right: 3px solid #cfcfcf;
+  }
+  /* Elementos hands */
+  .text-hands {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 310px) {
+  .btn-mensagem {
+    margin: 0;
+  }
+}
